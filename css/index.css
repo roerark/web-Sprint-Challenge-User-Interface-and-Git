@@ -74,6 +74,26 @@ p {
     margin: 0 auto;
 }
 
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding:2%;
+    margin: 2%;    
+}
+
+.topnav a {
+    text-decoration: none;
+    color: black;
+}
+
+.topimage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;   
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -123,10 +143,8 @@ p {
 
 .box2 {
     background:gold;
-
 }
     
-
 .box3 {
     background:cadetblue;
 }
@@ -179,12 +197,10 @@ p {
 
 footer {
     width: 100%;
-    background-color: black;
-    
+    background-color: black;   
 }
 
 footer nav {
-
     display: flex;
     padding:2%;
     font-size: 14px;
@@ -201,34 +217,49 @@ footer nav a {
     display: flex;
     justify-content: flex-start;
     color: white;
-    text-decoration: none;
-
-    
-  
-    
+    text-decoration: none;  
 }
 
-
-
-.topnav {
+.middle-content2 {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    padding:2%;
-    margin: 2%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     
 }
 
-.topnav a {
-    text-decoration: none;
-    color: black;
-}
-
-.topimage {
+.two {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 50px;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    padding-top: 3%;
+    border-bottom: 1px dotted black;
+    padding-bottom: 2%;
     
+}
+
+.bottompart {
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 4%;
+}
+
+.p2 {
+    padding-bottom: 3%;
+}
+
+button {
+    border-radius: 6px;
+    border: solid 1px black;
+    background-color: white;
+    padding: 10px;
+}
+
+.top-content2 {
+    border-bottom: 1px dotted;
+    padding-bottom: 2%;
 }
 
